@@ -1,0 +1,16 @@
+
+  <div class="form-addFlat">
+      
+      <label for="adress">כתובת</label>
+      <input type="text" [(ngModel)]="flat.adress"  id="adress" class="form-flat">
+      <label for="numBeds">מספר מיטות</label>
+      <input type="number" [(ngModel)]="flat.numBeds" id="numBeds" class="form-flat">
+      <label for="numRooms">מספר חדרים</label>
+      <input type="number" [(ngModel)]="flat.numRooms" id="numRooms" class="form-flat"> 
+      <label for="numFloor">מספר קומה</label>
+      <input type="number" [(ngModel)]="flat.numFloor" id="numFloor" class="form-flat">
+      <label for="price">מחיר</label>
+      <input type="number" [(ngModel)]="flat.price" id="price" class="form-flat">
+  </div>
+  <button (click)="addFlat()">אישור</button>
+  
